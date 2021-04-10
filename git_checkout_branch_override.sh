@@ -20,4 +20,4 @@ git() {
     branchOverride "git $*";
   fi
 }
-git checkout main
+git checkout master

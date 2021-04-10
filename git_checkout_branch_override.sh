@@ -1,3 +1,3 @@
 #!/bin/bash
-errormessage=$(git checkout master 2>&1)
+errormessage=$(git checkout main 2>&1)
 echo $errormessage

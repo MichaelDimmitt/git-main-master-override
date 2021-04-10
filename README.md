@@ -6,8 +6,8 @@ To see all overrides check:
 https://github.com/MichaelDimmitt/my-bashrc-git-overrides
 
 ## How it works (TLDR)
+Improve your git command by adding this content to your ~/.bashrc or ~/.bashrc.local 🎉
 ```bash
-#!/bin/bash
 branchOverride() {
     gitCommand="$*"
     errormessage=$(echo "$gitCommand" | exec 2>&1)

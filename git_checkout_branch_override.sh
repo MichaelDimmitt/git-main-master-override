@@ -15,4 +15,9 @@ branchOverride() {
         command git $*
     fi
 }
+git() {
+  if [ "$1" == "checkout" ]; then
+    branchOverride "git $*";
+  fi
+}
 git checkout master

@@ -15,3 +15,4 @@ branchOverride() {
         command git $*
     fi
 }
+git checkout master
